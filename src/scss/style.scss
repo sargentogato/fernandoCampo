@@ -129,3 +129,12 @@ header.masthead {
 .messagePartyPol {
   margin-block-start: -0.5rem;
 }
+
+.row {
+  p {
+    @media (max-width: 480px) {
+      font-size: calc(1.4vw + 0.5rem);
+    }
+    font-size: calc(1.2vw + 0.5rem);
+  }
+}
