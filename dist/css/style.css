@@ -75,7 +75,7 @@ header h1 {
 .headerImage__Box {
   width: 40%;
   height: auto;
-  margin-bottom: 1.2rem;
+  margin-bottom: 5rem;
 }
 @media (min-width: 768px) {
   .headerImage__Box {
