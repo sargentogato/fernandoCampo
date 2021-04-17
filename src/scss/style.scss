@@ -111,7 +111,6 @@ header {
 header.masthead {
   position: relative;
   overflow: hidden;
-  /** cambio de 7rem a  */
   padding-top: calc(1rem + var(--padding-top-header));
   padding-bottom: 7rem;
   background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
@@ -149,7 +148,9 @@ header.masthead {
     .fa-facebook-official {
       font-size: 3rem;
       border-radius: 50%;
-      color: rgb(26, 110, 221);
+      color: rgb(35, 112, 212);
     }
   }
 }
+
+
