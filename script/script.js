@@ -6,3 +6,5 @@ function changePaddingTop() {
   console.log("cargado");
   document.documentElement.style.setProperty("--padding-top-header", `${nav.offsetHeight}px`);
 }
+
+console.log("I love you Solenn")
