@@ -1,10 +1,1 @@
-addEventListener("resize", changePaddingTop);
-window.addEventListener("load", changePaddingTop);
-
-function changePaddingTop() {
-  let nav = document.getElementById("nav");
-  console.log("cargado");
-  document.documentElement.style.setProperty("--padding-top-header", `${nav.offsetHeight}px`);
-}
-
-console.log("I love you Solenn")
+function changePaddingTop(){let nav=document.getElementById("nav");document.documentElement.style.setProperty("--padding-top-header",`${nav.offsetHeight}px`)}addEventListener("resize",changePaddingTop),window.addEventListener("load",changePaddingTop);
